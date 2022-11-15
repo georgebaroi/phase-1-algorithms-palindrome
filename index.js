@@ -1,9 +1,19 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const splitString = word.split("")
+  const reverseString = splitString.reverse()
+  const reJoin = reverseString.join("")
+  if 
+    (reJoin === word)
+    return true 
+    else
+    return false 
+  
 }
 
 /* 
   Add your pseudocode here
+  make a function that takes in a string and returns true if palandrome and false if not
 */
 
 /*
